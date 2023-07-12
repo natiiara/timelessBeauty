@@ -1,0 +1,230 @@
+a {
+  text-decoration: none;
+}
+
+#btnTurnos {
+  font-size: 14px;
+  background: #680880;
+  padding: 20px 30px 20px 30px;
+  color: white;
+}
+
+
+body {
+  font-family: 'Ubuntu';
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+  margin-right: 25px;
+}
+
+#primero {
+  font-size: 30px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lista {
+  display: flex;
+}
+
+.titular {
+  text-align: center;
+  margin-top: 200px;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+
+header {
+  background: url(../images/fondo.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.contenedor {
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+
+/* SECCION NOSOTRAS */
+
+h3 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+.contenedor-nosotros {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contenedor-nosotros-parrafo {
+  width: 42%;
+}
+
+.imagen-nosotros {
+  height: 500px;
+}
+
+.contenedor-parrafo-y-boton p {
+  font-size: 18px;
+}
+
+.parrafo-final {
+  margin-bottom: 30px;
+}
+
+/*:::: Servicios :::*/
+
+.contenedor-servicios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.servicios{
+  width: 25%;
+  padding: 50px 38px 50px 38px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.violeta {
+  background: #68146b;
+}
+
+.lila {
+  background: #a85db8;
+}
+
+.servicios h4 {
+  font-size: 25px;
+  margin: 0;
+  text-align: center;
+  color: #faf5fb;
+ 
+}
+
+.servicios img {
+  
+  width: 380px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.servicios p {
+  font-size: 18px;
+}
+
+/* M V V*/
+
+.mvv-section {
+  background-color: white;
+  padding: 50px 0;
+}
+
+.mvv-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.mvv-item {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.h2mvv {
+  color: rgb(38, 1, 38);
+}
+
+
+
+
+/* ::: Imagen flotante :::*/
+.mensajes {
+  width: 80px;
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+}
+
+
+/* NOTICIAS */
+.contenedor-noticias {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* FOOTER */
+footer {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Contacto*/
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: rgb(143, 0, 255); /* Violeta */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid rgb(111, 0, 184); /* Morado */
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: rgb(111, 0, 184); /* Morado */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(143, 0, 255); /* Violeta */
+}

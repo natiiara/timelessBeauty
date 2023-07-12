@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Timeless Beauty - Contactos</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="contenedor">
+      <div class="menu">
+        <a href="index.html"><img class="imagen-logo" src="images/logo.jpg" alt="Logo" title="Logo"> </a>
+        <!--TIMELESS BEAUTY -->
+        <nav>
+          <ul class="lista">
+            <a href="index.html#Nosotros">
+              <li>¿Quiénes somos?
+            </a></li>
+            <a href="index.html#servicios">
+              <li>Servicios</li>
+              <a href="index.html#noticias">
+                <li>Noticias</li>
+              </a>
+              <a href="contactos.html">
+                <li>Contacto</li>
+              </a>
+              <a href="turnos.html">
+                <li>Turnos</li>
+              </a>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="titular">
+        <h1>Estética integral</h1>
+        <h2>Belleza total al alcance de un click</h2>
+        <a href="turnos.html" target="_blank" id="btnTurnos">TU TURNO AQUI!</a>
+      </div>
+
+    </div>
+  </header>
+  <br>
+  <!-- Formulario -->
+
+  <form class="contact-form" action="procesar.html" method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required placeholder="Ingrese el nombre">
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" required placeholder="Ingrese el apellido">
+
+    <label for="correo">Correo:</label>
+    <input type="email" id="correo" name="correo" required placeholder="ejemplo@ejemplo.com">
+    <br><br>
+    <label for="">Días de Contacto</label><br>
+    <input type="checkbox" name="lunes" id=""> Lunes
+    <input type="checkbox" name="martes" id=""> Martes
+    <input type="checkbox" name="miercoles" id=""> Miércoles
+    <input type="checkbox" name="jueves" id=""> Jueves
+    <input type="checkbox" name="viernes" id=""> Viernes
+
+    <br><br>
+    <label for="selHorario">Horario de contacto</label>
+    <select name="horario" id="selHorario">
+      <option value="M" selected>Mañana 9-12hs</option>
+      <option value="T">Tarde 13-17hs</option>
+      <option value="N">Noche 19-21hs</option>
+    </select>
+    <br> <br>
+    <label for="consulta">Consulta:</label>
+    <textarea id="consulta" name="consulta" rows="5" required></textarea>
+
+    <input type="submit" value="Enviar">
+  </form>
+
+  <footer>
+    <p>@ 2023 Timeless Beauty - Estética integral- Todos los derechos reservados</p>
+  </footer>
+
+
+  <div class="mensajes">
+    <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img src="images/mesj.png" alt="Mensaje"></a>
+
+
+  </div>
+
+
+</body>
+
+</html>
